@@ -112,7 +112,6 @@ With the application running, access the <http://localhost:3001/docs> address in
 <br />
 </details>
 
-</details>
 
 ![API documentation/Documentação da API](./screenshots/api-docs.png)
 
