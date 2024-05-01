@@ -9,7 +9,6 @@
 
 Full stack digital wallet application developed in Next.js and Node.js with TypeScript and built with Docker.
 
-**Note:** the application is currently only in Brazilian Portuguese, I want to add an English translation soon.
 <br />
 </details>
 
@@ -52,7 +51,7 @@ Aplicação full stack dockerizada de carteira digital desenvolvida em Next.js e
 <br />
 </details>
 
-## :memo: Methodologies and paradigms/Metodologias e paradigmas
+## :memo: Methodologies and paradigms
 
 <details>
   <summary markdown="span"><strong>:us: English</strong></summary><br />
@@ -65,14 +64,6 @@ Aplicação full stack dockerizada de carteira digital desenvolvida em Next.js e
 </details>
 
 <details>
-  <summary markdown="span"><strong>:brazil: Português</strong></summary><br />
-
-* Mobile First
-* Padrão BEM (Block-Element-Modifier) no CSS
-* Programação Orientada a Objetos (POO)
-* Princípios de SOLID
-<br />
-</details>
 
 ## :hammer_and_wrench: Stacks
 
@@ -93,7 +84,7 @@ Aplicação full stack dockerizada de carteira digital desenvolvida em Next.js e
 * Docker
 * Docker Compose
 
-## :hammer_and_wrench: Installation and execution/Instalação e execução
+## :hammer_and_wrench: Installation and execution
 
 <details>
   <summary markdown="span"><strong>:us: English</strong></summary><br />
@@ -131,43 +122,7 @@ npm run compose:down
 <br />
 </details>
 
-<details>
-  <summary markdown="span"><strong>:brazil: Português</strong></summary><br />
-
-Para rodar está aplicação é necessário ter **Git**, **Docker**, **Node** e o **Docker Compose** instalados no seu computador. O Docker Compose precisa estar na versão **2.5.0** ou superior e o Node na versão **16**.
-
-Além disso, para executar os comandos do passo-a-passo abaixo também é necessário que o seu sistema operacional tenha um **terminal Bash** instalado. Caso você esteja utilizando **Linux** ou **macOS**, o Bash já vem instalado por padrão. Porém, se o seu sistema for **Windows**, talvez você precise fazer [a instalação a parte](https://www.lifewire.com/install-bash-on-windows-10-4101773).
-
-### 1. No diretório raiz do projeto, execute o comando baixo no terminal para instalar as dependências
-
-```sh
-npm install
-```
-
-### 2. Suba os containers da aplicação
-
-```sh
-npm run compose:up
-```
-
-Executando o comando acima, será criada uma rede de três containers:
-
-* ng_frontend - mapeado na porta 3000
-* ng_backend - mapeado na porta 3001
-* ng_db - mapeado na pa porta 3002
-
-Se tratam da aplicação frontend, backend e o banco de dados, respectivamente. Depois que eles estiverem rodando, basta acessar o endereço <http://localhost:3000> no seu navegador para utilizar a aplicação.
-
-Para parar os containers, utilize o comando:
-
-```sh
-npm run compose:down
-```
-
-<br />
-</details>
-
-## :books: API Documentation/Documentação da API
+## :books: API Documentation
 
 <details>
   <summary markdown="span"><strong>:us: English</strong></summary><br />
@@ -176,11 +131,6 @@ With the application running, access the <http://localhost:3001/docs> address in
 <br />
 </details>
 
-<details>
-  <summary markdown="span"><strong>:brazil: Português</strong></summary><br />
-
-Com a aplicação em execução, basta acessar o endereço <http://localhost:3001/docs> no seu navegador para visualizar a documentação implementada com o Swagger UI.
-<br />
 </details>
 
 ![API documentation/Documentação da API](./screenshots/api-docs.png)
@@ -202,18 +152,6 @@ npm run test: integration
 <br />
 </details>
 
-<details>
-  <summary markdown="span"><strong>:brazil: Português</strong></summary><br />
-
-Implementei testes de integração no backend com 100% de cobertura. Para verificar o resultado deles, basta executar o comando abaixo na raiz do projeto:
-
-```sh
-npm run test:integration
-```
-
-**Observação:** para rodar os testes de integração, não é necessário que a aplicação esteja rodando, pois a interação com o banco de dados é mockada e os testes iniciam uma instância da API antes de serem iniciados.
-<br />
-</details>
 
 ![Cobertura dos testes de integração](./screenshots/integration-coverage.png)
 
@@ -241,27 +179,6 @@ npm run test:e2e
 <br />
 </details>
 
-<details>
-  <summary markdown="span"><strong>:brazil: Português</strong></summary><br />
-
-Também implementei alguns testes E2E com o framework Cypress em conjunto com a Testing Library para utilizar seletores semânticos. **É necessário que as aplicações estejam sendo executadas** antes de rodar os testes E2E.
-
-Para abrir o Cypress no navegador, execute o comando na raiz do projeto:
-
-```sh
-npm run test:e2e:open
-```
-
-Será aberta uma janela com a lista das specs, basta clicar em alguma delas para que os testes sejam iniciados.
-
-Caso prefira, também é possível rodar os testes E2E sem a interface gráfica utilizando o comando:
-
-```sh
-npm run test:e2e
-```
-
-<br />
-</details>
 
 ![Cypress](./screenshots/cypress.png)
 
@@ -280,18 +197,6 @@ npm run test
 <br />
 </details>
 
-<details>
-  <summary markdown="span"><strong>:brazil: Português</strong></summary><br />
-
-Rode o comando abaixo na raiz do projeto para rodar todos os testes de integração e E2d em sequência no terminal:
-
-```sh
-npm run test
-```
-
-**Observação:** esse comando roda os testes E2E sem a interface gráfica.
-<br />
-</details>
 
 ## :iphone: Screenshots/Capturas de tela
 
