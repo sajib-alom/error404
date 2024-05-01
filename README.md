@@ -2,7 +2,7 @@
 
 ![Preview](./screenshots/login.png)
 
-## :page_with_curl: About/Sobre
+## :page_with_curl: About
 
 <details>
   <summary markdown="span"><strong>:us: English</strong></summary><br />
@@ -14,7 +14,7 @@ Full stack digital wallet application developed in Next.js and Node.js with Type
 
 
 
-## :man_technologist: Developed Skills//Habilidades desenvolvidas
+## :man_technologist: Developed Skills
 
 <details>
   <summary markdown="span"><strong>:us: English</strong></summary><br />
@@ -116,9 +116,9 @@ With the application running, access the <http://localhost:3001/docs> address in
 
 ![API documentation/Documentação da API](./screenshots/api-docs.png)
 
-## :test_tube: Tests/Testes
+## :test_tube: Tests
 
-### Integration/Integração
+### Integration
 
 <details>
   <summary markdown="span"><strong>:us: English</strong></summary><br />
